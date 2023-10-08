@@ -46,6 +46,7 @@
     /* TESTIMONIAL / TRANSAKSI */
     .main-title{
         width: 100%;
+        margin: 0 auto;
     }
     .main-title .heading-testimonial{
         margin-top: 7rem;
@@ -62,6 +63,10 @@
     /* STEPS BY STEPS */
     .step{
         margin: 30px auto;
+    }
+    .text-waysofworking{
+        width: 100%;
+        margin: 0 auto;
     }
     .text-waysofworking .heading-working{
         font-size: 33px;
