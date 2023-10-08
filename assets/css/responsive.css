@@ -44,6 +44,9 @@
     }
 
     /* TESTIMONIAL / TRANSAKSI */
+    .main-title{
+        width: 100%;
+    }
     .main-title .heading-testimonial{
         margin-top: 7rem;
         font-size: 33px;
