@@ -1,0 +1,275 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}  
+
+/* ========== END NAVBAR ========== */
+.navbar{
+    background-color: #fff;
+}
+.img-icon{
+    width: 120px;
+}
+.navbar-nav{
+    align-items: center;
+    column-gap: 15px;
+}
+.btn-login{
+    background-color: transparent;
+    padding: 7px 15px 7px 15px;
+    text-decoration: none;
+    color: #000;
+    border-radius: 10px;
+    border: 0.5px solid #cdcdcd;
+}
+.btn-login:hover{
+    background-color: #7b256e;
+    color: #fff;
+}
+/* ========== END NAVBAR ========== */
+
+
+/* ========== HERO ========== */
+.hero{
+    margin-top: 70px;
+}
+.tagline{
+    line-height: 35px;
+    font-weight: 300;
+}
+.tagline span{
+    font-size: 45px;
+}
+.img-hero img{
+    width: 100%;
+}
+.except p{
+    margin-top: 30px;
+    font-size: 19px;
+    font-weight: 400;
+}
+.btn-hero{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    margin-top: 25px;
+}
+.btn-hero .transparant{
+    text-decoration: none;
+    border: 0.5px solid #cdcdcd;
+    padding: 10px;
+    width: 50%;
+    border-radius: 10px;
+    color: #000;
+    text-align: center;
+}
+.btn-hero .transparant:hover{
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.btn-hero .active{
+    background-color: #7b256e;
+    padding: 10px;
+    width: 50%;
+    color: #fff;
+    text-align: center;
+    border-radius: 10px;
+    text-decoration: none;
+    border: 0.5px solid #cdcdcd;
+}
+.btn-hero .active:hover{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+/* ========== END HERO ========== */
+
+
+/* ========== ABOUT ========== */
+.about{
+    background-color: #7b256e;
+    margin-top: 50px;
+}
+.left-heading{
+    color: #fff;
+}
+.left-heading p{
+    font-weight: 400;
+}
+.content-img{
+    margin-top: 100px !important;
+}
+.right-images img{
+    width: 100%;
+}
+/* ========== END ABOUT ========== */
+
+
+/* ========== TESTIMONIAL ========== */
+.testimonial{
+    padding-top: 100px;
+    position: relative;
+    bottom: 150px;
+}
+.main-title .heading-testimonial{
+    font-size: 38px;
+    line-height: 40px;
+    font-weight: 700;
+}
+.main-title .color-span{
+    color: #7b256e;
+    font-weight: 700;
+}
+.main-title .main-paragraf{
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-top: 20px;
+}
+.card-testimonial{
+    padding: 30px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.card-body .card-title{
+    font-size: 35px;
+    font-weight: 700;
+}
+/* ========== END TESTIMONIAL ========== */
+
+
+/* ========== CARA KERJA ========== */
+.ways-of-working{
+    background-color: #fcfcfc;
+    padding-top: 100px;
+    padding-bottom: 80px;
+}
+.text-waysofworking .heading-working{
+    font-size: 38px;
+    line-height: 40px;
+    font-weight: 700;
+}
+.text-waysofworking .main-working{
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-top: 20px;
+}
+.main-steps{
+    margin-top: 75px !important;
+}
+.step{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    padding: 20px;
+}
+.step i{
+    font-size: 45px;
+    color: #7b256e;
+    padding: 20px;
+    background-color: #fff0fc;
+    border-radius: 15px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    position: relative;
+    bottom: 45px;
+}
+.step h1{
+    font-size: 25px;
+    font-weight: bold;
+}
+.step p{
+    margin-top: 25px;
+}
+/* ========== END CARA KERJA ========== */
+
+
+/* ========== KOMITMEN ========== */
+.komitmen{
+    background-color: #fff0fc;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.heading-komitmen span{
+    padding: 15px;
+    background-color: #7b256e;
+    color: #fff;
+    border-radius: 20px;
+}
+.heading-komitmen h1{
+    margin-top: 25px;
+    font-size: 38px;
+    line-height: 40px;
+    font-weight: 700;
+}
+.heading-komitmen p{
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-top: 20px;
+}
+/* ========== END KOMITMEN ========== */
+
+
+/* ========== PARTNER ========== */
+.partner{
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.heading-partner h1{
+    font-size: 38px;
+    line-height: 40px;
+    font-weight: 700;
+}
+.link-images img{
+    width: 250px;
+}
+/* ========== END PARTNER ========== */
+
+
+/* ========== FOOTER ========== */
+.footer{
+    padding: 80px 0 0 0;
+    background-color: #fff0fc;
+}
+.location{
+    text-align: center;
+}
+.location ul{
+    padding: 0;
+}
+.location ul li{
+    list-style: none;
+}
+.location .privacy-policy{
+    text-decoration: none;
+    color: #000;
+}
+.location h1{
+    font-size: 30px;
+    line-height: 40px;
+    font-weight: 500;
+    margin-bottom: 25px;
+}
+.location i{
+    color: #000;
+    font-size: 25px;
+    padding: 15px;
+    background-color: transparent;
+    border-radius: 20px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    margin: 0 5px;
+}
+.location i:hover{
+    background-color: #7b256e;
+    color: #fff;
+}
+.button-footer{
+    background-color: #7b256e;
+    padding: 20px;
+    margin-top: 80px;
+}
+.button-footer p{
+    margin: 0;
+    color: #fff;
+    font-size: 15px;
+}
+/* ========== END FOOTER ========== */

@@ -1,0 +1,100 @@
+@media only screen and (max-width: 767px){
+    .navbar-nav{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        margin-top: 30px;
+    }
+    .nav-link:hover{
+        width: 30%;
+        padding: 10px;
+        background-color: #7b256e;
+        border-radius: 10px;
+        color: #fff !important;
+    }
+
+    /* HERO */
+    .tagline{
+        text-align: center;
+        line-height: 20px;
+    }
+    .tagline span{
+        font-size: 30px;
+        letter-spacing: .5px;
+    }
+    .except p{
+        text-align: center;
+        font-size: 16px;
+    }
+    .btn-hero .active{
+        width: 85%;
+        margin: auto;
+    }
+    .btn-hero .transparant{
+        width: 85%;
+        margin: auto;
+    }
+    .img-hero img{
+        margin-top: 50px;
+    }
+
+    /* ABOUT */
+    .left-heading{
+        margin-top: 7rem;
+    }
+
+    /* TESTIMONIAL / TRANSAKSI */
+    .main-title .heading-testimonial{
+        margin-top: 7rem;
+        font-size: 33px;
+    }
+    .main-title .main-paragraf{
+        font-size: 18px;
+    }
+    .card-testimonial{
+        width: 100% !important;
+        margin: 10px auto;
+    }
+
+    /* STEPS BY STEPS */
+    .step{
+        margin: 30px auto;
+    }
+    .text-waysofworking .heading-working{
+        font-size: 33px;
+    }
+    .text-waysofworking .main-working{
+        font-size: 18px;
+    }
+
+    /* KOMITMEN */
+    .heading-komitmen h1{
+        font-size: 33px;
+    }
+    .heading-komitmen p{
+        font-size: 18px;
+    }
+
+    /* PARTNER */
+    .images-partner{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .link-images img{
+        width: 200px;
+        margin: 10px auto;
+    }
+
+    /* FOOTER */
+    .location h1{
+        font-size: 30px;
+        font-weight: bold;
+        margin-bottom: 0;
+        margin-top: 30px;
+    }
+    .location i{
+        position: relative;
+        top: 25px;
+    }
+}
